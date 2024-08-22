@@ -3,16 +3,6 @@
 
 ¡Bienvenido a JavaScript Journey! Este es el lugar donde el código se convierte en magia y tú eres el mago 🧙‍♂️. Desde los primeros pasos hasta hechizos avanzados, este repositorio es tu compañero en el camino hacia la maestría en JavaScript.
 
-### ¿Como usar php en mi editor de codigo?
-
-Se puede instalar xampp y php viene integrado para usar.
-
-Ejemplo del uso de php en un editor de codigo, declarando al principio `<php>` 
-
-    <?php
-        echo "Hello world!";
-    ?>
-
 ### Temario de la ruta JavaScript
 
 🎯 ¿Qué encontrarás aquí?
@@ -71,9 +61,3 @@ Para seguir aprendiendo y profundizando en JavaScript, aquí tienes algunos enla
     Eloquent JavaScript - Un libro en línea gratuito que te lleva de principiante a avanzado.
     You Don't Know JS (YDKJS) - Una serie de libros que explora JavaScript en profundidad.
     Codecademy: Learn JavaScript - Un curso interactivo que te lleva desde los conceptos básicos hasta la creación de proyectos.
-
-### Conclusión
-
-Esperamos que esta introducción a la sintaxis básica de PHP te haya sido útil.
-
-Esperamos que esta introducción a la sintaxis básica de PHP te haya sido útil.
