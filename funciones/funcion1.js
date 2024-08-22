@@ -1,10 +1,10 @@
 
 // Declarar una funcion
-function suma (x, y){
+function multiplicar (x, y){
     return x*y;
 }
 
-console.log(suma(13,98));
+console.log(multiplicar(13,98));
 
 
 // Declarar una funcion 
