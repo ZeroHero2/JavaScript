@@ -18,5 +18,27 @@ let misToppings = document.getElementsByTagName('li');
 console.log(misToppings);
 
 // -------- Seleccionar un elemento en especifico  ------------
+// let cebolla2 = document.querySelector('.topping');
+// let cebolla3 = document.querySelector('li.topping.fondo-marron');
 let cebolla = document.querySelector('#cebolla');
 console.log(cebolla);
+
+// -------- Seleccionar todos los elementos  ------------
+let toppingsAll = document.querySelectorAll('.topping.fondo-naranja');
+console.log(toppingsAll);
+
+// -------- Seleccionar todos los elementos  ------------
+let cambiarColor = document.querySelector('.topping');
+cambiarColor.style.backgroundColor = 'red'; //Cambio el color a traves de la propiedad style
+
+// -------- Imprimir texto  ------------
+let listaDeToppings = document.getElementById('lista-toppings');
+console.log(listaDeToppings);
+console.log(listaDeToppings.innerText); // Solo nos da el texto
+console.log(listaDeToppings.textContent); // Conserva los espacios de html
+console.log(listaDeToppings.innerHTML); // Retorna la estrucutra HTML
+
+// -------- Modificar texto   ------------
+// const titulo = document.getElementById('titulo');
+console.log(titulo);
+titulo.innerText = 'Mis toppings favoritos'; // cambiar el texto 
