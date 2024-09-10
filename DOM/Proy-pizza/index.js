@@ -29,7 +29,7 @@ console.log(toppingsAll);
 
 // -------- Seleccionar todos los elementos  ------------
 let cambiarColor = document.querySelector('.topping');
-cambiarColor.style.backgroundColor = 'red'; //Cambio el color a traves de la propiedad style
+cambiarColor.style.backgroundColor = 'rgb(45, 107, 79)'; //Cambio el color a traves de la propiedad style
 
 // -------- Imprimir texto  ------------
 let listaDeToppings = document.getElementById('lista-toppings');
@@ -42,3 +42,10 @@ console.log(listaDeToppings.innerHTML); // Retorna la estrucutra HTML
 // const titulo = document.getElementById('titulo');
 console.log(titulo);
 titulo.innerText = 'Mis toppings favoritos'; // cambiar el texto 
+
+
+// ----------- Atributos -----------
+const enlaces = document.getElementsByTagName('a');
+console.log(enlaces[0].getAttribute('href')); // Verificar atributo href, modificar o eliminar 
+console.log(enlaces[0].removeAttribute('href')) // Remover atributo 
+console.log(enlaces[0].setAttribute('href', 'https://platzi.com/home/mis-rutas/15182271/'))
