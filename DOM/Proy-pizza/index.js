@@ -47,5 +47,5 @@ titulo.innerText = 'Mis toppings favoritos'; // cambiar el texto
 // ----------- Atributos -----------
 const enlaces = document.getElementsByTagName('a');
 console.log(enlaces[0].getAttribute('href')); // Verificar atributo href, modificar o eliminar 
-console.log(enlaces[0].removeAttribute('href')) // Remover atributo 
-console.log(enlaces[0].setAttribute('href', 'https://platzi.com/home/mis-rutas/15182271/'))
+console.log(enlaces[0].removeAttribute('href')); // Remover atributo 
+console.log(enlaces[0].setAttribute('href', 'https://platzi.com/home/mis-rutas/15182271/')); // Cambiar el valor del href
