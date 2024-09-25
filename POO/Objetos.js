@@ -29,3 +29,18 @@ console.log(estudiante.calificaciones.ingles); // 9
 
 // Usar un método del objeto
 estudiante.saludar(); // "Hola, soy Marco y tengo 17 años."
+
+
+// ------ Funcion constructora ------
+function Estudiante(nombre,edad,grado){
+    this.nombre = nombre;
+    this.edad = edad;
+    this.grado = grado;
+    this.saludar = function(){
+        console.log (`Hola, soy ${this.nombre}, tengo ${this.edad} y estoy en ${this.grado}`);
+    };
+}
+const estudiante1 = new Estudiante ("Luis", 24, "11°");
+const estudiante2 = new Estudiante ("Maria", 22, "7°");
+estudiante1.saludar();
+estudiante2.saludar();
