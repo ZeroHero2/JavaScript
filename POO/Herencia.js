@@ -5,7 +5,7 @@ class estudiante {
     this.edad = edad;
     this.grado = grado;
     }
-    // Método que comparten todos los estudiantes
+// Método que comparten todos los estudiantes
 saludar() { 
   console.log(`Hola mi nombre es ${this.nombre} y tengo ${this.edad} años`);
 }
@@ -14,7 +14,7 @@ saludar() {
 // Clase hija estudianteUniversitario que hereda de Estudiante
 class estudianteUniversitario extends estudiante{
   constructor (nombre, edad, grado,materiaFavorita){
-    // Llamamos al constructor de la clase padre con 'super'
+// Llamamos al constructor de la clase padre con 'super'
     super (nombre, edad, grado);
     this.materiaFavorita = materiaFavorita; // Nueva propiedad específica de estudianteUniversitario
   }
